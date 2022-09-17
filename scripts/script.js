@@ -18,11 +18,11 @@ let overlayModal2 = document.querySelector(".overlay2");
 let overlayModal3 = document.querySelector(".overlay3");
 
 avatar1.addEventListener("mouseenter", () => {
-  avatar1.src = "../images/Avatar2.png";
+  avatar1.src = "./images/Avatar2.png";
   avatar1.style.cursor = "pointer";
 });
 avatar1.addEventListener("mouseleave", () => {
-  avatar1.src = "../images/Avatar.png";
+  avatar1.src = "./images/Avatar.png";
   avatar1.style.cursor = "none";
 });
 
