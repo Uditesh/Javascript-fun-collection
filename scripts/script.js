@@ -102,3 +102,11 @@ btnCloseModal3.addEventListener("click", closeModal3);
 overlayModal1.addEventListener("click", closeModal1);
 overlayModal2.addEventListener("click", closeModal2);
 overlayModal3.addEventListener("click", closeModal3);
+
+var menu = document.getElementById("menu");
+var navLink = document.getElementsByClassName("menu-list")[0];
+
+// on menu click toggle the class
+menu.onclick = function () {
+  navLink.classList.toggle("active");
+};
