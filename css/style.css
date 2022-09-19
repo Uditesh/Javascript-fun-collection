@@ -516,18 +516,17 @@ h2 {
         margin-top: 0.2rem;
         margin-right: 0.5rem;
     }
-.menu-list {
-    margin-top: 40px;
-}
-.menu-list li {
-    padding: 2px 10px;
+    .menu-list {
+        margin-top: 40px;
+    }
+    .menu-list li {
+        padding: 2px 10px;
+    }
 
-}
-
-.menu-list.active {
-    margin-top: 18%;
-    margin-left: 0;
-}
+    .menu-list.active {
+        margin-top: 18%;
+        margin-left: 0;
+    }
 }
 
 /* media query for 406px width */
