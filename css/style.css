@@ -502,18 +502,18 @@ h2 {
         width: 120px;
     }
 
-    .menu-bar {
+    /* .menu-bar {
         height: 50px;
-    }
+    } */
 
     #menu {
         margin-top: 0.2rem;
         margin-right: 0.5rem;
     }
 
-    .menu-list.active {
-        margin-top: 20px;
-    }
+    /* .menu-list.active {
+        margin-left: 0;
+    } */
 }
 
 /* media query for 406px width */
